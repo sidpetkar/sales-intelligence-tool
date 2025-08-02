@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent, useRef } from "react";
+import { useTheme } from "@/contexts/ThemeContext";
 import { ArrowUp, Mic, Volume2, VolumeX, Sun, Moon } from "lucide-react";
 
 interface SummaryResponse {
@@ -25,13 +26,11 @@ export default function SimpleSummaryPage() {
   const [spokenSummary, setSpokenSummary] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const { theme, toggleTheme } = useTheme();
   const audioRef = useRef<HTMLAudioElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-  };
+
 
   const adjustTextareaHeight = () => {
     if (textareaRef.current) {

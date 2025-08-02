@@ -3,6 +3,7 @@
 import { useState, FormEvent, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { useTheme } from "@/contexts/ThemeContext";
 import {
   ArrowUp,
   Mic,
@@ -43,7 +44,7 @@ export default function SimpleSummaryPage() {
   const [audioProgress, setAudioProgress] = useState(0);
   const [audioDuration, setAudioDuration] = useState(0);
   const [hasStoredAudio, setHasStoredAudio] = useState(false);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const { theme, toggleTheme } = useTheme();
   const audioRef = useRef<HTMLAudioElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
@@ -88,9 +89,7 @@ export default function SimpleSummaryPage() {
     };
   }, []);
 
-  const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-  };
+
 
   const adjustTextareaHeight = () => {
     if (textareaRef.current) {
