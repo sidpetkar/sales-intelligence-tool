@@ -1,0 +1,954 @@
+{
+  "invoices": [
+    {
+      "invoice_id": "becd7307-2e1e-437a-9058-c1c35ab42d2e",
+      "contact": {
+        "name": "Fernandez Group",
+        "email": "buchanankevin@morgan.com"
+      },
+      "date": "2025-06-12",
+      "due_date": "2025-06-26",
+      "amount_due": 14059.02,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Incubate bleeding-edge e-services",
+          "quantity": 1,
+          "unit_amount": 14059.02
+        }
+      ]
+    },
+    {
+      "invoice_id": "1bdbcaa3-8dc4-42fb-8926-fdec3bb34d2c",
+      "contact": {
+        "name": "Owen PLC",
+        "email": "daltonyoung@meyer.info"
+      },
+      "date": "2025-07-02",
+      "due_date": "2025-07-16",
+      "amount_due": 2812.52,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Utilize back-end paradigms",
+          "quantity": 1,
+          "unit_amount": 2812.52
+        }
+      ]
+    },
+    {
+      "invoice_id": "2b9b830d-03e1-4898-9fd4-b7ff0f6a6037",
+      "contact": {
+        "name": "Brooks Inc",
+        "email": "michael75@harmon.info"
+      },
+      "date": "2025-06-27",
+      "due_date": "2025-07-11",
+      "amount_due": 22745.54,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Innovate rich web-readiness",
+          "quantity": 1,
+          "unit_amount": 22745.54
+        }
+      ]
+    },
+    {
+      "invoice_id": "a8f5af2d-0b7a-4902-8042-de4f44b8f466",
+      "contact": {
+        "name": "Baker-Moreno",
+        "email": "daughertybenjamin@johnson-kelly.info"
+      },
+      "date": "2025-06-21",
+      "due_date": "2025-07-05",
+      "amount_due": 1847.98,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Optimize next-generation metrics",
+          "quantity": 1,
+          "unit_amount": 1847.98
+        }
+      ]
+    },
+    {
+      "invoice_id": "5960cb34-aeed-4438-a172-6390025f1e36",
+      "contact": {
+        "name": "Richardson, Coleman and Peterson",
+        "email": "zthompson@brooks.info"
+      },
+      "date": "2025-05-26",
+      "due_date": "2025-06-09",
+      "amount_due": 11204.76,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Target customized deliverables",
+          "quantity": 1,
+          "unit_amount": 11204.76
+        }
+      ]
+    },
+    {
+      "invoice_id": "40a372f9-14cd-4626-be95-f65fba136612",
+      "contact": {
+        "name": "Pacheco-Smith",
+        "email": "otaylor@henderson-price.net"
+      },
+      "date": "2025-06-19",
+      "due_date": "2025-07-03",
+      "amount_due": 24497.01,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "E-enable seamless technologies",
+          "quantity": 1,
+          "unit_amount": 24497.01
+        }
+      ]
+    },
+    {
+      "invoice_id": "3fd0683d-485b-462f-ae98-6d88f441da61",
+      "contact": {
+        "name": "Baker Inc",
+        "email": "andrew34@grant.com"
+      },
+      "date": "2025-07-03",
+      "due_date": "2025-07-17",
+      "amount_due": 8595.6,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Re-intermediate wireless mindshare",
+          "quantity": 1,
+          "unit_amount": 8595.6
+        }
+      ]
+    },
+    {
+      "invoice_id": "fae0befa-1a1a-466f-803b-82e8a89b834e",
+      "contact": {
+        "name": "Robinson, Stark and Crosby",
+        "email": "amy24@smith.com"
+      },
+      "date": "2025-06-17",
+      "due_date": "2025-07-01",
+      "amount_due": 11896.44,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Harness 24/365 e-markets",
+          "quantity": 1,
+          "unit_amount": 11896.44
+        }
+      ]
+    },
+    {
+      "invoice_id": "c2278dce-9ddc-46bc-8012-117ecf074d47",
+      "contact": {
+        "name": "Frost PLC",
+        "email": "justinlong@maynard.com"
+      },
+      "date": "2025-05-31",
+      "due_date": "2025-06-14",
+      "amount_due": 5608.52,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Enable killer e-tailers",
+          "quantity": 1,
+          "unit_amount": 5608.52
+        }
+      ]
+    },
+    {
+      "invoice_id": "4564165c-1fd9-4896-91ed-e749dab7aa53",
+      "contact": {
+        "name": "Sparks LLC",
+        "email": "powellwhitney@english.com"
+      },
+      "date": "2025-06-29",
+      "due_date": "2025-07-13",
+      "amount_due": 1334.0,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Leverage vertical e-tailers",
+          "quantity": 1,
+          "unit_amount": 1334.0
+        }
+      ]
+    },
+    {
+      "invoice_id": "c18c8fd4-5dee-4882-a471-b0aaa536749e",
+      "contact": {
+        "name": "Lester Group",
+        "email": "vhall@hughes.com"
+      },
+      "date": "2025-07-19",
+      "due_date": "2025-08-02",
+      "amount_due": 7367.8,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Envisioneer impactful applications",
+          "quantity": 1,
+          "unit_amount": 7367.8
+        }
+      ]
+    },
+    {
+      "invoice_id": "5546443f-92a5-433c-a4e8-9bca2ebb0308",
+      "contact": {
+        "name": "Sanchez-Delgado",
+        "email": "johnbanks@evans.com"
+      },
+      "date": "2025-06-23",
+      "due_date": "2025-07-07",
+      "amount_due": 4725.24,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Iterate leading-edge convergence",
+          "quantity": 1,
+          "unit_amount": 4725.24
+        }
+      ]
+    },
+    {
+      "invoice_id": "ae2c33bc-8a06-4896-80c2-6789838627a4",
+      "contact": {
+        "name": "Rowe, Schneider and Buck",
+        "email": "emily35@bentley-carpenter.com"
+      },
+      "date": "2025-07-09",
+      "due_date": "2025-07-23",
+      "amount_due": 9693.65,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Disintermediate seamless relationships",
+          "quantity": 1,
+          "unit_amount": 9693.65
+        }
+      ]
+    },
+    {
+      "invoice_id": "32d073e7-3c3e-4138-8fbf-31a8103866cc",
+      "contact": {
+        "name": "Campbell, Kerr and Gray",
+        "email": "leejoel@howard.com"
+      },
+      "date": "2025-06-13",
+      "due_date": "2025-06-27",
+      "amount_due": 14695.94,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Exploit vertical technologies",
+          "quantity": 1,
+          "unit_amount": 14695.94
+        }
+      ]
+    },
+    {
+      "invoice_id": "8f9e1f43-9472-455d-b925-02b46f3e0892",
+      "contact": {
+        "name": "Williams, Evans and Gaines",
+        "email": "rodriguezvanessa@young-thompson.com"
+      },
+      "date": "2025-07-15",
+      "due_date": "2025-07-29",
+      "amount_due": 17826.83,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Harness next-generation content",
+          "quantity": 1,
+          "unit_amount": 17826.83
+        }
+      ]
+    },
+    {
+      "invoice_id": "82b9a881-abf3-4933-beee-b59478b3c9b0",
+      "contact": {
+        "name": "Jarvis, Bailey and Ponce",
+        "email": "denise20@dillon.com"
+      },
+      "date": "2025-06-10",
+      "due_date": "2025-06-24",
+      "amount_due": 2091.88,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Transform out-of-the-box vortals",
+          "quantity": 1,
+          "unit_amount": 2091.88
+        }
+      ]
+    },
+    {
+      "invoice_id": "1bbf0deb-0e22-4155-8759-440c63a23065",
+      "contact": {
+        "name": "Anderson-Mendoza",
+        "email": "gregorybrown@bell.com"
+      },
+      "date": "2025-07-18",
+      "due_date": "2025-08-01",
+      "amount_due": 3784.98,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Target compelling functionalities",
+          "quantity": 1,
+          "unit_amount": 3784.98
+        }
+      ]
+    },
+    {
+      "invoice_id": "d1b8bd67-b235-4e3c-8533-5e50f4fd698a",
+      "contact": {
+        "name": "Becker, Nixon and Garcia",
+        "email": "millercourtney@carpenter.com"
+      },
+      "date": "2025-07-02",
+      "due_date": "2025-07-16",
+      "amount_due": 16814.22,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Architect open-source roi",
+          "quantity": 1,
+          "unit_amount": 16814.22
+        }
+      ]
+    },
+    {
+      "invoice_id": "aae290a7-69c8-4bab-b195-dd13a5d77b2c",
+      "contact": {
+        "name": "Morrow LLC",
+        "email": "harrisjoshua@greene.biz"
+      },
+      "date": "2025-07-07",
+      "due_date": "2025-07-21",
+      "amount_due": 9117.15,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Revolutionize 24/365 web-readiness",
+          "quantity": 1,
+          "unit_amount": 9117.15
+        }
+      ]
+    },
+    {
+      "invoice_id": "14f7c183-1c00-45dd-b7c3-d46836a5b11d",
+      "contact": {
+        "name": "Morris and Sons",
+        "email": "jenniferpark@medina.info"
+      },
+      "date": "2025-07-15",
+      "due_date": "2025-07-29",
+      "amount_due": 7808.81,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Syndicate innovative niches",
+          "quantity": 1,
+          "unit_amount": 7808.81
+        }
+      ]
+    },
+    {
+      "invoice_id": "d777f329-be45-4349-8135-939d5d067cfb",
+      "contact": {
+        "name": "Clark and Sons",
+        "email": "kelseyvilla@holden-chapman.info"
+      },
+      "date": "2025-07-16",
+      "due_date": "2025-07-30",
+      "amount_due": 1972.72,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Revolutionize leading-edge models",
+          "quantity": 1,
+          "unit_amount": 1972.72
+        }
+      ]
+    },
+    {
+      "invoice_id": "ea74df47-111b-4e97-afa4-37321b6784d5",
+      "contact": {
+        "name": "Brooks LLC",
+        "email": "frankhenderson@roach.com"
+      },
+      "date": "2025-06-06",
+      "due_date": "2025-06-20",
+      "amount_due": 1366.65,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Architect b2b interfaces",
+          "quantity": 1,
+          "unit_amount": 1366.65
+        }
+      ]
+    },
+    {
+      "invoice_id": "ead1147b-86a1-499f-a216-3080f143b47e",
+      "contact": {
+        "name": "Perry, Sullivan and Potter",
+        "email": "boylejeffrey@lopez.info"
+      },
+      "date": "2025-06-10",
+      "due_date": "2025-06-24",
+      "amount_due": 1540.65,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Orchestrate dynamic e-commerce",
+          "quantity": 1,
+          "unit_amount": 1540.65
+        }
+      ]
+    },
+    {
+      "invoice_id": "92e87181-be9f-477a-be43-4382cca4a0a0",
+      "contact": {
+        "name": "Grimes LLC",
+        "email": "davidsalas@gibbs.org"
+      },
+      "date": "2025-05-27",
+      "due_date": "2025-06-10",
+      "amount_due": 1320.85,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Whiteboard real-time convergence",
+          "quantity": 1,
+          "unit_amount": 1320.85
+        }
+      ]
+    },
+    {
+      "invoice_id": "215cf792-3a33-405d-85f1-ab3e1afea4d2",
+      "contact": {
+        "name": "Marshall, Watson and Zimmerman",
+        "email": "johnball@willis.com"
+      },
+      "date": "2025-07-07",
+      "due_date": "2025-07-21",
+      "amount_due": 19186.81,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Re-contextualize visionary e-commerce",
+          "quantity": 1,
+          "unit_amount": 19186.81
+        }
+      ]
+    },
+    {
+      "invoice_id": "dc1ce9bc-1607-4e36-b768-e31a484b01f5",
+      "contact": {
+        "name": "Riley-Perry",
+        "email": "shelley95@mcintyre.com"
+      },
+      "date": "2025-05-30",
+      "due_date": "2025-06-13",
+      "amount_due": 1906.05,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Monetize intuitive e-business",
+          "quantity": 1,
+          "unit_amount": 1906.05
+        }
+      ]
+    },
+    {
+      "invoice_id": "048faff7-2b68-4abc-b679-ed9106d3986c",
+      "contact": {
+        "name": "Vasquez and Sons",
+        "email": "nicole09@lang-walters.info"
+      },
+      "date": "2025-06-21",
+      "due_date": "2025-07-05",
+      "amount_due": 5206.18,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Benchmark b2c infrastructures",
+          "quantity": 1,
+          "unit_amount": 5206.18
+        }
+      ]
+    },
+    {
+      "invoice_id": "e6788c4e-06e5-450c-b7df-20a2a4a193d7",
+      "contact": {
+        "name": "Jackson, Lee and Mcbride",
+        "email": "amylewis@molina.com"
+      },
+      "date": "2025-05-30",
+      "due_date": "2025-06-13",
+      "amount_due": 24180.65,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Generate best-of-breed infrastructures",
+          "quantity": 1,
+          "unit_amount": 24180.65
+        }
+      ]
+    },
+    {
+      "invoice_id": "57593b7f-0ffa-42ae-8b86-bb6b43fb29e8",
+      "contact": {
+        "name": "Simon, Nielsen and Murphy",
+        "email": "david62@smith-lambert.com"
+      },
+      "date": "2025-07-22",
+      "due_date": "2025-08-05",
+      "amount_due": 14550.05,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Visualize cross-platform synergies",
+          "quantity": 1,
+          "unit_amount": 14550.05
+        }
+      ]
+    },
+    {
+      "invoice_id": "0279f207-ff0c-4b05-92bc-b559813e63a3",
+      "contact": {
+        "name": "House, Ellis and Baird",
+        "email": "banksstephanie@wagner-campbell.biz"
+      },
+      "date": "2025-05-30",
+      "due_date": "2025-06-13",
+      "amount_due": 6135.82,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Architect synergistic action-items",
+          "quantity": 1,
+          "unit_amount": 6135.82
+        }
+      ]
+    },
+    {
+      "invoice_id": "81a8975f-7677-4319-973e-018233153e9a",
+      "contact": {
+        "name": "Brooks, Bell and Willis",
+        "email": "deborahwright@summers-riley.com"
+      },
+      "date": "2025-07-15",
+      "due_date": "2025-07-29",
+      "amount_due": 24368.45,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Morph visionary solutions",
+          "quantity": 1,
+          "unit_amount": 24368.45
+        }
+      ]
+    },
+    {
+      "invoice_id": "5c00011c-a398-439b-86de-1b1831a618a1",
+      "contact": {
+        "name": "Serrano-Mills",
+        "email": "fpacheco@weber-rush.com"
+      },
+      "date": "2025-06-21",
+      "due_date": "2025-07-05",
+      "amount_due": 11360.06,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Brand killer models",
+          "quantity": 1,
+          "unit_amount": 11360.06
+        }
+      ]
+    },
+    {
+      "invoice_id": "1f6b2a38-080b-4e2f-b259-055f40dcc7a3",
+      "contact": {
+        "name": "Nelson-Moses",
+        "email": "hernandezmelinda@harris.org"
+      },
+      "date": "2025-06-05",
+      "due_date": "2025-06-19",
+      "amount_due": 18382.36,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Deploy strategic applications",
+          "quantity": 1,
+          "unit_amount": 18382.36
+        }
+      ]
+    },
+    {
+      "invoice_id": "b6aa2a6e-9293-46b5-bc2f-0e1fa6669381",
+      "contact": {
+        "name": "Cortez-Nelson",
+        "email": "ecampbell@rose.com"
+      },
+      "date": "2025-06-06",
+      "due_date": "2025-06-20",
+      "amount_due": 20314.81,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Extend world-class synergies",
+          "quantity": 1,
+          "unit_amount": 20314.81
+        }
+      ]
+    },
+    {
+      "invoice_id": "84a65674-5dea-4cd4-a24c-4eb6599766ff",
+      "contact": {
+        "name": "Crawford, Butler and Collins",
+        "email": "carllong@norton.com"
+      },
+      "date": "2025-06-12",
+      "due_date": "2025-06-26",
+      "amount_due": 7350.65,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Visualize integrated roi",
+          "quantity": 1,
+          "unit_amount": 7350.65
+        }
+      ]
+    },
+    {
+      "invoice_id": "96e77a53-dc59-432c-bcbf-866adcf759e6",
+      "contact": {
+        "name": "Johnson, King and Sullivan",
+        "email": "qscott@hall.com"
+      },
+      "date": "2025-07-07",
+      "due_date": "2025-07-21",
+      "amount_due": 1468.04,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Evolve proactive e-tailers",
+          "quantity": 1,
+          "unit_amount": 1468.04
+        }
+      ]
+    },
+    {
+      "invoice_id": "ef0485e8-5c61-4ab4-8e21-c81d4cc9fa30",
+      "contact": {
+        "name": "Porter, Schwartz and Ramos",
+        "email": "pamelathomas@thompson.org"
+      },
+      "date": "2025-07-10",
+      "due_date": "2025-07-24",
+      "amount_due": 1268.68,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Exploit magnetic web-readiness",
+          "quantity": 1,
+          "unit_amount": 1268.68
+        }
+      ]
+    },
+    {
+      "invoice_id": "4acc0835-0370-4ef2-8079-2fba49928654",
+      "contact": {
+        "name": "Gray-Carson",
+        "email": "hbrown@wolf.com"
+      },
+      "date": "2025-07-20",
+      "due_date": "2025-08-03",
+      "amount_due": 13373.0,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Re-intermediate e-business partnerships",
+          "quantity": 1,
+          "unit_amount": 13373.0
+        }
+      ]
+    },
+    {
+      "invoice_id": "9ac0e25c-6b01-429b-a313-fdb84f2c9e51",
+      "contact": {
+        "name": "Park-Welch",
+        "email": "barnettbrianna@page.com"
+      },
+      "date": "2025-07-12",
+      "due_date": "2025-07-26",
+      "amount_due": 14135.69,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Aggregate sticky niches",
+          "quantity": 1,
+          "unit_amount": 14135.69
+        }
+      ]
+    },
+    {
+      "invoice_id": "312904ed-a3f4-484c-9c1d-36e46962a4dd",
+      "contact": {
+        "name": "Smith and Sons",
+        "email": "villarrealheather@king-rich.com"
+      },
+      "date": "2025-06-13",
+      "due_date": "2025-06-27",
+      "amount_due": 8970.41,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Unleash integrated content",
+          "quantity": 1,
+          "unit_amount": 8970.41
+        }
+      ]
+    },
+    {
+      "invoice_id": "e0e93f47-9827-4bf0-9e1e-78d1292fb05f",
+      "contact": {
+        "name": "Mitchell-Elliott",
+        "email": "ojohnson@holder.com"
+      },
+      "date": "2025-07-04",
+      "due_date": "2025-07-18",
+      "amount_due": 22598.99,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Benchmark frictionless functionalities",
+          "quantity": 1,
+          "unit_amount": 22598.99
+        }
+      ]
+    },
+    {
+      "invoice_id": "3c2bf61f-b6b9-4f5a-91f2-949a9dc10dee",
+      "contact": {
+        "name": "Hamilton, Jackson and Barnes",
+        "email": "thompsonnathaniel@rice-santiago.com"
+      },
+      "date": "2025-05-26",
+      "due_date": "2025-06-09",
+      "amount_due": 5013.89,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Visualize front-end relationships",
+          "quantity": 1,
+          "unit_amount": 5013.89
+        }
+      ]
+    },
+    {
+      "invoice_id": "a1040304-97d6-4310-8c72-6a12f2505ecd",
+      "contact": {
+        "name": "Wilson-Collins",
+        "email": "whitejoshua@miller-lewis.com"
+      },
+      "date": "2025-07-22",
+      "due_date": "2025-08-05",
+      "amount_due": 21609.56,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Envisioneer b2c partnerships",
+          "quantity": 1,
+          "unit_amount": 21609.56
+        }
+      ]
+    },
+    {
+      "invoice_id": "1ed7644b-61fe-475f-8ed9-88b6374dc6e9",
+      "contact": {
+        "name": "Anderson PLC",
+        "email": "johnsonamanda@pearson.com"
+      },
+      "date": "2025-05-29",
+      "due_date": "2025-06-12",
+      "amount_due": 18727.28,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Target customized eyeballs",
+          "quantity": 1,
+          "unit_amount": 18727.28
+        }
+      ]
+    },
+    {
+      "invoice_id": "07a0dd46-4b7d-4ae1-9e70-2276a6699bb8",
+      "contact": {
+        "name": "Johnson Inc",
+        "email": "xmyers@warner.com"
+      },
+      "date": "2025-06-16",
+      "due_date": "2025-06-30",
+      "amount_due": 11035.76,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Matrix one-to-one e-tailers",
+          "quantity": 1,
+          "unit_amount": 11035.76
+        }
+      ]
+    },
+    {
+      "invoice_id": "ef30d127-8fb0-4d79-a235-296d9c027b33",
+      "contact": {
+        "name": "Mclean-Russell",
+        "email": "osmith@cortez.org"
+      },
+      "date": "2025-07-02",
+      "due_date": "2025-07-16",
+      "amount_due": 16238.62,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Transition innovative supply-chains",
+          "quantity": 1,
+          "unit_amount": 16238.62
+        }
+      ]
+    },
+    {
+      "invoice_id": "914c44a5-529e-4be4-b994-e6aa43e95c1e",
+      "contact": {
+        "name": "Walsh LLC",
+        "email": "morrisalison@gonzalez.com"
+      },
+      "date": "2025-06-01",
+      "due_date": "2025-06-15",
+      "amount_due": 9680.39,
+      "status": "VOIDED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Repurpose sticky interfaces",
+          "quantity": 1,
+          "unit_amount": 9680.39
+        }
+      ]
+    },
+    {
+      "invoice_id": "c205d70f-92d8-4627-8917-20ec2eeb828f",
+      "contact": {
+        "name": "Jackson, Smith and Cook",
+        "email": "james23@lawson.com"
+      },
+      "date": "2025-07-08",
+      "due_date": "2025-07-22",
+      "amount_due": 2208.09,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Facilitate vertical initiatives",
+          "quantity": 1,
+          "unit_amount": 2208.09
+        }
+      ]
+    },
+    {
+      "invoice_id": "3e371553-bc51-4336-b50e-2c9da2af10a4",
+      "contact": {
+        "name": "Olsen PLC",
+        "email": "jenniferanderson@oliver.info"
+      },
+      "date": "2025-06-27",
+      "due_date": "2025-07-11",
+      "amount_due": 17912.38,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Utilize value-added architectures",
+          "quantity": 1,
+          "unit_amount": 17912.38
+        }
+      ]
+    },
+    {
+      "invoice_id": "a211089a-56a6-4bef-a603-d625e1701727",
+      "contact": {
+        "name": "Wood PLC",
+        "email": "leonardlaura@dodson.com"
+      },
+      "date": "2025-06-16",
+      "due_date": "2025-06-30",
+      "amount_due": 7851.74,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Expedite e-business communities",
+          "quantity": 1,
+          "unit_amount": 7851.74
+        }
+      ]
+    }
+  ]
+}

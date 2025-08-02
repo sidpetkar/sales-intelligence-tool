@@ -1,0 +1,954 @@
+{
+  "invoices": [
+    {
+      "Id": "75965",
+      "TxnDate": "2025-07-16",
+      "DueDate": "2025-07-31",
+      "CustomerRef": {
+        "name": "Graham-Hardin",
+        "value": "192978"
+      },
+      "TotalAmt": 18850.84,
+      "Balance": 18850.84,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "User-friendly multimedia extranet",
+          "Amount": 18850.84,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "97183",
+      "TxnDate": "2025-06-13",
+      "DueDate": "2025-06-28",
+      "CustomerRef": {
+        "name": "Cox LLC",
+        "value": "45447"
+      },
+      "TotalAmt": 18643.4,
+      "Balance": 18643.4,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Profit-focused secondary standardization",
+          "Amount": 18643.4,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "17066",
+      "TxnDate": "2025-07-04",
+      "DueDate": "2025-07-19",
+      "CustomerRef": {
+        "name": "Adams, Odonnell and Fitzgerald",
+        "value": "787204"
+      },
+      "TotalAmt": 3381.68,
+      "Balance": 3381.68,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Phased responsive implementation",
+          "Amount": 3381.68,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "64762",
+      "TxnDate": "2025-07-18",
+      "DueDate": "2025-08-02",
+      "CustomerRef": {
+        "name": "Jones, Mason and Wagner",
+        "value": "599827"
+      },
+      "TotalAmt": 1724.23,
+      "Balance": 1724.23,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Universal maximized customer loyalty",
+          "Amount": 1724.23,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "38691",
+      "TxnDate": "2025-07-20",
+      "DueDate": "2025-08-04",
+      "CustomerRef": {
+        "name": "Bowers-Coleman",
+        "value": "138823"
+      },
+      "TotalAmt": 5384.62,
+      "Balance": 5384.62,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Business-focused optimizing matrices",
+          "Amount": 5384.62,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "96736",
+      "TxnDate": "2025-06-06",
+      "DueDate": "2025-06-21",
+      "CustomerRef": {
+        "name": "Greene PLC",
+        "value": "675010"
+      },
+      "TotalAmt": 12458.31,
+      "Balance": 12458.31,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Intuitive tangible focus group",
+          "Amount": 12458.31,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "23570",
+      "TxnDate": "2025-06-25",
+      "DueDate": "2025-07-10",
+      "CustomerRef": {
+        "name": "Lane, Sandoval and Jenkins",
+        "value": "227040"
+      },
+      "TotalAmt": 22126.4,
+      "Balance": 22126.4,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Decentralized object-oriented pricing structure",
+          "Amount": 22126.4,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "95778",
+      "TxnDate": "2025-06-06",
+      "DueDate": "2025-06-21",
+      "CustomerRef": {
+        "name": "Spencer, Schneider and Rivera",
+        "value": "775644"
+      },
+      "TotalAmt": 8255.38,
+      "Balance": 8255.38,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Multi-layered secondary info-mediaries",
+          "Amount": 8255.38,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "70038",
+      "TxnDate": "2025-06-29",
+      "DueDate": "2025-07-14",
+      "CustomerRef": {
+        "name": "Thomas-Evans",
+        "value": "739562"
+      },
+      "TotalAmt": 7054.45,
+      "Balance": 7054.45,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Horizontal maximized open system",
+          "Amount": 7054.45,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "10099",
+      "TxnDate": "2025-07-06",
+      "DueDate": "2025-07-21",
+      "CustomerRef": {
+        "name": "Richardson-Arellano",
+        "value": "51015"
+      },
+      "TotalAmt": 20138.96,
+      "Balance": 20138.96,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Realigned transitional complexity",
+          "Amount": 20138.96,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "46466",
+      "TxnDate": "2025-06-07",
+      "DueDate": "2025-06-22",
+      "CustomerRef": {
+        "name": "Valdez-Dixon",
+        "value": "840332"
+      },
+      "TotalAmt": 15934.04,
+      "Balance": 15934.04,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Monitored multi-state intranet",
+          "Amount": 15934.04,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "18387",
+      "TxnDate": "2025-06-02",
+      "DueDate": "2025-06-17",
+      "CustomerRef": {
+        "name": "Whitney-Kelly",
+        "value": "151131"
+      },
+      "TotalAmt": 2000.87,
+      "Balance": 2000.87,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Progressive object-oriented task-force",
+          "Amount": 2000.87,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "89951",
+      "TxnDate": "2025-07-18",
+      "DueDate": "2025-08-02",
+      "CustomerRef": {
+        "name": "Phillips, Stanton and Reid",
+        "value": "2981"
+      },
+      "TotalAmt": 24416.6,
+      "Balance": 24416.6,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Synergized directional capability",
+          "Amount": 24416.6,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "38669",
+      "TxnDate": "2025-07-20",
+      "DueDate": "2025-08-04",
+      "CustomerRef": {
+        "name": "Villanueva Ltd",
+        "value": "565688"
+      },
+      "TotalAmt": 20403.2,
+      "Balance": 20403.2,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "User-friendly 6thgeneration parallelism",
+          "Amount": 20403.2,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "97415",
+      "TxnDate": "2025-07-22",
+      "DueDate": "2025-08-06",
+      "CustomerRef": {
+        "name": "Williamson and Sons",
+        "value": "669835"
+      },
+      "TotalAmt": 29339.14,
+      "Balance": 29339.14,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Optional client-server productivity",
+          "Amount": 29339.14,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "40697",
+      "TxnDate": "2025-07-19",
+      "DueDate": "2025-08-03",
+      "CustomerRef": {
+        "name": "Bishop Ltd",
+        "value": "866836"
+      },
+      "TotalAmt": 1714.14,
+      "Balance": 1714.14,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Grass-roots 3rdgeneration matrix",
+          "Amount": 1714.14,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "89008",
+      "TxnDate": "2025-07-20",
+      "DueDate": "2025-08-04",
+      "CustomerRef": {
+        "name": "Arnold, Zavala and Williams",
+        "value": "849312"
+      },
+      "TotalAmt": 19293.14,
+      "Balance": 19293.14,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Organic optimizing workforce",
+          "Amount": 19293.14,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "80388",
+      "TxnDate": "2025-07-16",
+      "DueDate": "2025-07-31",
+      "CustomerRef": {
+        "name": "Potter PLC",
+        "value": "348838"
+      },
+      "TotalAmt": 8581.05,
+      "Balance": 8581.05,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Polarized bifurcated policy",
+          "Amount": 8581.05,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "46349",
+      "TxnDate": "2025-06-28",
+      "DueDate": "2025-07-13",
+      "CustomerRef": {
+        "name": "Cox, Gillespie and Cook",
+        "value": "790662"
+      },
+      "TotalAmt": 4359.63,
+      "Balance": 4359.63,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Synchronized transitional Local Area Network",
+          "Amount": 4359.63,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "65700",
+      "TxnDate": "2025-06-28",
+      "DueDate": "2025-07-13",
+      "CustomerRef": {
+        "name": "Sutton, Mcdonald and Walters",
+        "value": "115325"
+      },
+      "TotalAmt": 22608.87,
+      "Balance": 22608.87,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Vision-oriented empowering moderator",
+          "Amount": 22608.87,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "20653",
+      "TxnDate": "2025-07-17",
+      "DueDate": "2025-08-01",
+      "CustomerRef": {
+        "name": "Vance and Sons",
+        "value": "795734"
+      },
+      "TotalAmt": 11671.27,
+      "Balance": 11671.27,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Reactive well-modulated capacity",
+          "Amount": 11671.27,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "11456",
+      "TxnDate": "2025-06-11",
+      "DueDate": "2025-06-26",
+      "CustomerRef": {
+        "name": "Wilson-Gallegos",
+        "value": "388444"
+      },
+      "TotalAmt": 13652.39,
+      "Balance": 13652.39,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Extended impactful intranet",
+          "Amount": 13652.39,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "3800",
+      "TxnDate": "2025-06-22",
+      "DueDate": "2025-07-07",
+      "CustomerRef": {
+        "name": "Morrow and Sons",
+        "value": "38231"
+      },
+      "TotalAmt": 5293.34,
+      "Balance": 5293.34,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Universal foreground groupware",
+          "Amount": 5293.34,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "99536",
+      "TxnDate": "2025-06-29",
+      "DueDate": "2025-07-14",
+      "CustomerRef": {
+        "name": "Schmidt Inc",
+        "value": "406634"
+      },
+      "TotalAmt": 3524.56,
+      "Balance": 3524.56,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Face-to-face 3rdgeneration budgetary management",
+          "Amount": 3524.56,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "52860",
+      "TxnDate": "2025-06-09",
+      "DueDate": "2025-06-24",
+      "CustomerRef": {
+        "name": "Patel Inc",
+        "value": "822948"
+      },
+      "TotalAmt": 24783.09,
+      "Balance": 24783.09,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Distributed disintermediate superstructure",
+          "Amount": 24783.09,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "16012",
+      "TxnDate": "2025-06-27",
+      "DueDate": "2025-07-12",
+      "CustomerRef": {
+        "name": "Meyer Ltd",
+        "value": "880073"
+      },
+      "TotalAmt": 28258.58,
+      "Balance": 28258.58,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Face-to-face zero-defect leverage",
+          "Amount": 28258.58,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "16023",
+      "TxnDate": "2025-06-27",
+      "DueDate": "2025-07-12",
+      "CustomerRef": {
+        "name": "Rodriguez PLC",
+        "value": "757515"
+      },
+      "TotalAmt": 21062.13,
+      "Balance": 21062.13,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Profit-focused 6thgeneration data-warehouse",
+          "Amount": 21062.13,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "21801",
+      "TxnDate": "2025-07-23",
+      "DueDate": "2025-08-07",
+      "CustomerRef": {
+        "name": "Bush, Martin and Lambert",
+        "value": "931843"
+      },
+      "TotalAmt": 8037.78,
+      "Balance": 8037.78,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Synergistic analyzing matrix",
+          "Amount": 8037.78,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "61718",
+      "TxnDate": "2025-07-21",
+      "DueDate": "2025-08-05",
+      "CustomerRef": {
+        "name": "Ferguson Ltd",
+        "value": "518451"
+      },
+      "TotalAmt": 4745.54,
+      "Balance": 4745.54,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Multi-channeled non-volatile customer loyalty",
+          "Amount": 4745.54,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "6855",
+      "TxnDate": "2025-06-30",
+      "DueDate": "2025-07-15",
+      "CustomerRef": {
+        "name": "Gallagher-Lane",
+        "value": "534005"
+      },
+      "TotalAmt": 8193.91,
+      "Balance": 8193.91,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "De-engineered background policy",
+          "Amount": 8193.91,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "55070",
+      "TxnDate": "2025-07-20",
+      "DueDate": "2025-08-04",
+      "CustomerRef": {
+        "name": "Garrett-Gibbs",
+        "value": "356802"
+      },
+      "TotalAmt": 25834.0,
+      "Balance": 25834.0,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Automated 3rdgeneration collaboration",
+          "Amount": 25834.0,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "59226",
+      "TxnDate": "2025-07-14",
+      "DueDate": "2025-07-29",
+      "CustomerRef": {
+        "name": "Marsh-Taylor",
+        "value": "38483"
+      },
+      "TotalAmt": 26046.68,
+      "Balance": 26046.68,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Robust dynamic capacity",
+          "Amount": 26046.68,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "7080",
+      "TxnDate": "2025-06-28",
+      "DueDate": "2025-07-13",
+      "CustomerRef": {
+        "name": "Grant-Bowers",
+        "value": "904674"
+      },
+      "TotalAmt": 17955.65,
+      "Balance": 17955.65,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "User-centric modular complexity",
+          "Amount": 17955.65,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "93204",
+      "TxnDate": "2025-05-31",
+      "DueDate": "2025-06-15",
+      "CustomerRef": {
+        "name": "Sellers, Jones and Clark",
+        "value": "560509"
+      },
+      "TotalAmt": 19557.94,
+      "Balance": 19557.94,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Grass-roots holistic orchestration",
+          "Amount": 19557.94,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "99590",
+      "TxnDate": "2025-07-05",
+      "DueDate": "2025-07-20",
+      "CustomerRef": {
+        "name": "Farmer, Morgan and Buck",
+        "value": "707692"
+      },
+      "TotalAmt": 7040.69,
+      "Balance": 7040.69,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Synchronized encompassing portal",
+          "Amount": 7040.69,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "49249",
+      "TxnDate": "2025-07-19",
+      "DueDate": "2025-08-03",
+      "CustomerRef": {
+        "name": "Summers and Sons",
+        "value": "589326"
+      },
+      "TotalAmt": 22600.49,
+      "Balance": 22600.49,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Balanced heuristic workforce",
+          "Amount": 22600.49,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "81567",
+      "TxnDate": "2025-07-09",
+      "DueDate": "2025-07-24",
+      "CustomerRef": {
+        "name": "Reeves, Thompson and Smith",
+        "value": "173690"
+      },
+      "TotalAmt": 26840.93,
+      "Balance": 26840.93,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Optimized intangible archive",
+          "Amount": 26840.93,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "2638",
+      "TxnDate": "2025-05-29",
+      "DueDate": "2025-06-13",
+      "CustomerRef": {
+        "name": "Brooks-Cannon",
+        "value": "211638"
+      },
+      "TotalAmt": 28934.69,
+      "Balance": 28934.69,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Focused client-driven solution",
+          "Amount": 28934.69,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "61832",
+      "TxnDate": "2025-07-16",
+      "DueDate": "2025-07-31",
+      "CustomerRef": {
+        "name": "Cooper LLC",
+        "value": "222784"
+      },
+      "TotalAmt": 2085.93,
+      "Balance": 2085.93,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Stand-alone grid-enabled installation",
+          "Amount": 2085.93,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "72015",
+      "TxnDate": "2025-06-12",
+      "DueDate": "2025-06-27",
+      "CustomerRef": {
+        "name": "Smith, Allen and Hunt",
+        "value": "523491"
+      },
+      "TotalAmt": 5117.97,
+      "Balance": 5117.97,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Ergonomic human-resource secured line",
+          "Amount": 5117.97,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "83785",
+      "TxnDate": "2025-07-07",
+      "DueDate": "2025-07-22",
+      "CustomerRef": {
+        "name": "Nelson, Bush and Thomas",
+        "value": "162335"
+      },
+      "TotalAmt": 24601.85,
+      "Balance": 24601.85,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Universal discrete functionalities",
+          "Amount": 24601.85,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "26014",
+      "TxnDate": "2025-06-22",
+      "DueDate": "2025-07-07",
+      "CustomerRef": {
+        "name": "Pena, Green and Gibson",
+        "value": "987737"
+      },
+      "TotalAmt": 12840.37,
+      "Balance": 12840.37,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Optional static intranet",
+          "Amount": 12840.37,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "37589",
+      "TxnDate": "2025-07-16",
+      "DueDate": "2025-07-31",
+      "CustomerRef": {
+        "name": "Bauer PLC",
+        "value": "593676"
+      },
+      "TotalAmt": 5709.81,
+      "Balance": 5709.81,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Right-sized client-server core",
+          "Amount": 5709.81,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "19404",
+      "TxnDate": "2025-06-22",
+      "DueDate": "2025-07-07",
+      "CustomerRef": {
+        "name": "Reed, Malone and Robinson",
+        "value": "519471"
+      },
+      "TotalAmt": 18095.92,
+      "Balance": 18095.92,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Enterprise-wide responsive instruction set",
+          "Amount": 18095.92,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "6950",
+      "TxnDate": "2025-07-03",
+      "DueDate": "2025-07-18",
+      "CustomerRef": {
+        "name": "Adams, Watson and Ford",
+        "value": "799055"
+      },
+      "TotalAmt": 26985.73,
+      "Balance": 26985.73,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Decentralized neutral conglomeration",
+          "Amount": 26985.73,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "32206",
+      "TxnDate": "2025-06-11",
+      "DueDate": "2025-06-26",
+      "CustomerRef": {
+        "name": "Russo Inc",
+        "value": "888379"
+      },
+      "TotalAmt": 28844.55,
+      "Balance": 28844.55,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Public-key multimedia middleware",
+          "Amount": 28844.55,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "2880",
+      "TxnDate": "2025-07-21",
+      "DueDate": "2025-08-05",
+      "CustomerRef": {
+        "name": "Scott-Mora",
+        "value": "740405"
+      },
+      "TotalAmt": 1838.37,
+      "Balance": 1838.37,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Organic uniform encoding",
+          "Amount": 1838.37,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "16390",
+      "TxnDate": "2025-06-15",
+      "DueDate": "2025-06-30",
+      "CustomerRef": {
+        "name": "Miller-Hernandez",
+        "value": "770700"
+      },
+      "TotalAmt": 5413.43,
+      "Balance": 5413.43,
+      "Status": "Overdue",
+      "Line": [
+        {
+          "Description": "Up-sized foreground analyzer",
+          "Amount": 5413.43,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "7519",
+      "TxnDate": "2025-06-28",
+      "DueDate": "2025-07-13",
+      "CustomerRef": {
+        "name": "Noble-Cannon",
+        "value": "60813"
+      },
+      "TotalAmt": 11874.55,
+      "Balance": 11874.55,
+      "Status": "Paid",
+      "Line": [
+        {
+          "Description": "Multi-channeled real-time synergy",
+          "Amount": 11874.55,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    },
+    {
+      "Id": "52966",
+      "TxnDate": "2025-06-21",
+      "DueDate": "2025-07-06",
+      "CustomerRef": {
+        "name": "Hall, Bowers and Gonzalez",
+        "value": "492827"
+      },
+      "TotalAmt": 11445.21,
+      "Balance": 11445.21,
+      "Status": "Unpaid",
+      "Line": [
+        {
+          "Description": "Progressive client-server function",
+          "Amount": 11445.21,
+          "DetailType": "SalesItemLineDetail"
+        }
+      ]
+    }
+  ]
+}

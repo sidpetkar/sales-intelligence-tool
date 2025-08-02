@@ -1,0 +1,535 @@
+{
+  "gmail": [
+    {
+      "thread_id": "gmail_thread_1",
+      "subject": "Roofing Proposal Follow-up",
+      "from": { "name": "John Keller", "email": "john.keller@roofingpros.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-07-15T10:00:00Z",
+      "snippet": "Just wanted to follow up on the roofing proposal we discussed. We are very interested.",
+      "body": "Hi, Just wanted to follow up on the roofing proposal we discussed for the Springfield Mall project. We are very interested and would like to schedule a call to discuss the next steps. Best, John Keller.",
+      "message_count": 2
+    },
+    {
+      "thread_id": "gmail_thread_2",
+      "subject": "Re: Quote Request",
+      "from": { "name": "AI Bootcamp Team", "email": "contact@aibootcamp.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-07-21T14:30:00Z",
+      "snippet": "Thanks for the quote. We are reviewing it and will get back to you shortly.",
+      "body": "Hi, Thanks for sending over the quote. The team is reviewing it now and we will get back to you by the end of the week with our decision. Thanks, AI Bootcamp Team",
+      "message_count": 3
+    },
+    {
+      "thread_id": "gmail_thread_3",
+      "subject": "Roofing Proposal",
+      "from": { "name": "sales.rep@example.com", "email": "sales.rep@example.com" },
+      "to": ["pm-team@postman.com"],
+      "date": "2025-06-25T11:00:00Z",
+      "snippet": "Here is the roofing proposal for the new headquarters.",
+      "body": "Hi Postman team, Please find attached the roofing proposal for your new headquarters building. Let me know if you have any questions. Best,",
+      "message_count": 1
+    },
+    {
+      "thread_id": "gmail_thread_4",
+      "subject": "Question about your invoice",
+      "from": { "name": "Mark Allen", "email": "mark.allen@buildcorp.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-07-14T11:20:00Z",
+      "snippet": "We have a quick question regarding invoice QB_INV_1.",
+      "body": "Hi, We're processing your invoice (QB_INV_1) for the new roofing materials and had a quick question about one of the line items. Can you give me a call when you have a moment? Thanks, Mark.",
+      "message_count": 1
+    },
+    {
+      "thread_id": "gmail_thread_5",
+      "subject": "Feedback on Pitch",
+      "from": { "name": "Postman Marketing Team", "email": "marketing@postman.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-07-02T16:00:00Z",
+      "snippet": "Thanks for the great presentation today!",
+      "body": "Great presentation today. The team was very impressed with the pitch and the roofing proposal. We'll be in touch soon with our feedback.",
+      "message_count": 1
+    },
+    {
+      "thread_id": "gmail_thread_6",
+      "subject": "Urgent: Project Timelines",
+      "from": { "name": "sales.rep@example.com", "email": "sales.rep@example.com" },
+      "to": ["john.keller@roofingpros.com"],
+      "date": "2025-07-15T17:00:00Z",
+      "snippet": "Following up on our call regarding the Springfield Mall project timelines.",
+      "body": "Hi John, Following up on our call. Can you confirm the project start date we discussed for the Springfield Mall roofing project? We need to schedule our team. Thanks.",
+      "message_count": 4
+    },
+    {
+      "thread_id": "gmail_thread_7",
+      "subject": "Re: New Bootcamp",
+      "from": { "name": "AI Bootcamp Team", "email": "contact@aibootcamp.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-06-30T09:45:00Z",
+      "snippet": "We're excited about the new bootcamp and would like to discuss a partnership.",
+      "body": "Hi, Following up on your email. We're excited about the new bootcamp and see a lot of potential for a partnership. Can we schedule a call to discuss?",
+      "message_count": 2
+    },
+    {
+      "thread_id": "gmail_thread_8",
+      "subject": "Quick Question",
+      "from": { "name": "John Keller", "email": "john.keller@roofingpros.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-07-20T13:10:00Z",
+      "snippet": "Do you have a moment to chat this afternoon?",
+      "body": "Hi, quick question about the roofing project. Do you have a moment to chat this afternoon? Let me know. Best, John.",
+      "message_count": 1
+    },
+    {
+      "thread_id": "gmail_thread_9",
+      "subject": "Your Xero Invoice",
+      "from": { "name": "accounts@xero.com", "email": "accounts@xero.com" },
+      "to": ["sales.rep@example.com"],
+      "date": "2025-07-16T09:00:00Z",
+      "snippet": "Your invoice to Roofing Pros is due soon.",
+      "body": "This is a reminder that your invoice #XERO_INV_1 to Roofing Pros for $12,000.00 is due on July 30, 2025.",
+      "message_count": 1
+    },
+    {
+      "thread_id": "gmail_thread_10",
+      "subject": "Project Update: BuildCorp",
+      "from": { "name": "sales.rep@example.com", "email": "sales.rep@example.com" },
+      "to": ["mark.allen@buildcorp.com"],
+      "date": "2025-07-10T10:00:00Z",
+      "snippet": "Just wanted to provide a quick update on the warehouse roofing project.",
+      "body": "Hi Mark, Just wanted to provide a quick update. The materials have been ordered and we are on track to begin the warehouse roofing project on schedule. Let me know if you have any questions.",
+      "message_count": 2
+    }
+  ],
+  "outlook": [
+    {
+      "conversation_id": "outlook_convo_1",
+      "sender": { "emailAddress": { "name": "Mark Allen", "address": "mark.allen@buildcorp.com" } },
+      "receivedDateTime": "2025-07-18T09:00:00Z",
+      "subject": "Budget Scope for Roofing",
+      "bodyPreview": "We need to discuss the budget for the roofing project before we can proceed.",
+      "body": { "contentType": "html", "content": "<p>Hi, We need to discuss the budget for the roofing project before we can proceed with the proposal. Can we schedule a meeting for next week? Regards, Mark Allen</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_2",
+      "sender": { "emailAddress": { "name": "John Keller", "address": "john.keller@roofingpros.com" } },
+      "receivedDateTime": "2025-07-22T11:00:00Z",
+      "subject": "Re: Meeting Tomorrow",
+      "bodyPreview": "Confirmed for 10 AM tomorrow to discuss the roofing project.",
+      "body": { "contentType": "html", "content": "<p>Great, confirmed for 10 AM tomorrow to go over the final details of the roofing project proposal. Talk soon.</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_3",
+      "sender": { "emailAddress": { "name": "sales.rep@example.com", "address": "sales.rep@example.com" } },
+      "receivedDateTime": "2025-06-28T15:00:00Z",
+      "subject": "Re: Roofing Proposal",
+      "bodyPreview": "Thanks for the feedback. We can definitely adjust the proposal.",
+      "body": { "contentType": "html", "content": "<p>Hi Postman Team, Thanks for the feedback on the roofing proposal. We can definitely adjust the scope to better fit your budget. I'll send over a revised version tomorrow. Best,</p>" },
+      "hasAttachments": true
+    },
+    {
+      "conversation_id": "outlook_convo_4",
+      "sender": { "emailAddress": { "name": "AI Bootcamp Team", "address": "contact@aibootcamp.com" } },
+      "receivedDateTime": "2025-07-25T18:00:00Z",
+      "subject": "Partnership Agreement",
+      "bodyPreview": "Please find the partnership agreement attached.",
+      "body": { "contentType": "html", "content": "<p>Hi, It was great speaking with you. Please find the partnership agreement attached for your review. We're excited to work with you on the new bootcamp. Thanks!</p>" },
+      "hasAttachments": true
+    },
+    {
+      "conversation_id": "outlook_convo_5",
+      "sender": { "emailAddress": { "name": "Mark Allen", "address": "mark.allen@buildcorp.com" } },
+      "receivedDateTime": "2025-07-29T09:30:00Z",
+      "subject": "Re: Payment for QB_INV_1",
+      "bodyPreview": "We've just sent the payment for the outstanding invoice.",
+      "body": { "contentType": "html", "content": "<p>Hi, Just wanted to let you know that we've sent the payment for invoice QB_INV_1. You should see it in your account shortly. Thanks, Mark.</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_6",
+      "sender": { "emailAddress": { "name": "John Keller", "address": "john.keller@roofingpros.com" } },
+      "receivedDateTime": "2025-06-15T12:00:00Z",
+      "subject": "Introductory Call",
+      "bodyPreview": "Looking forward to our call to discuss your roofing needs.",
+      "body": { "contentType": "html", "content": "<p>Hi, Looking forward to our call this afternoon to discuss how Roofing Pros can help with your upcoming projects. Best, John Keller.</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_7",
+      "sender": { "emailAddress": { "name": "sales.rep@example.com", "address": "sales.rep@example.com" } },
+      "receivedDateTime": "2025-07-01T11:00:00Z",
+      "subject": "Checking In",
+      "bodyPreview": "Just checking in to see if you had any questions on the roofing proposal.",
+      "body": { "contentType": "html", "content": "<p>Hi Postman team, Just wanted to check in and see if you had any questions on the roofing proposal I sent over last week. Happy to schedule a call to discuss. Best,</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_8",
+      "sender": { "emailAddress": { "name": "BuildCorp", "address": "contact@buildcorp.com" } },
+      "receivedDateTime": "2025-05-20T10:00:00Z",
+      "subject": "Inquiry: Warehouse Roofing Project",
+      "bodyPreview": "We are looking for a quote for a new roofing project for our warehouse.",
+      "body": { "contentType": "html", "content": "<p>Hello, We are in the planning stages of a new roofing project for our main warehouse and would like to get a quote. The project is approximately 50,000 sq ft. Please let us know the best way to proceed. Thank you, BuildCorp</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_9",
+      "sender": { "emailAddress": { "name": "AI Bootcamp Team", "address": "contact@aibootcamp.com" } },
+      "receivedDateTime": "2025-07-19T17:00:00Z",
+      "subject": "Quote Request",
+      "bodyPreview": "We would like to request a quote for your sales training services.",
+      "body": { "contentType": "html", "content": "<p>Hi, We are interested in your sales training services for our team of 20 reps and would like to request a quote. Can you please send over some information on your corporate packages? Thanks, AI Bootcamp Team.</p>" },
+      "hasAttachments": false
+    },
+    {
+      "conversation_id": "outlook_convo_10",
+      "sender": { "emailAddress": { "name": "John Keller", "address": "john.keller@roofingpros.com" } },
+      "receivedDateTime": "2025-07-24T16:00:00Z",
+      "subject": "Great Call",
+      "bodyPreview": "It was great connecting today. We're excited to move forward with the roofing project.",
+      "body": { "contentType": "html", "content": "<p>Hi, It was great connecting today. The team is very excited to move forward with the Springfield Mall roofing project. We'll sign the proposal and send it back by end of day. Best, John.</p>" },
+      "hasAttachments": false
+    }
+  ],
+  "calendar": [
+    {
+      "id": "cal_event_1",
+      "summary": "Meeting with Roofing Pros",
+      "description": "Discuss final details of the roofing project proposal for Springfield Mall.",
+      "start": { "dateTime": "2025-07-23T10:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-07-23T11:00:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "john.keller@roofingpros.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Virtual Meeting",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_2",
+      "summary": "Follow-up call with BuildCorp",
+      "description": "Discuss budget scope for their roofing project.",
+      "start": { "dateTime": "2025-07-28T14:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-07-28T14:30:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "mark.allen@buildcorp.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Conference Call",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_3",
+      "summary": "Project Kick-off: Postman HQ",
+      "description": "Kick-off meeting for the new headquarters roofing project.",
+      "start": { "dateTime": "2025-08-04T09:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-08-04T10:00:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "pm-team@postman.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Postman HQ, San Francisco",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_4",
+      "summary": "AI Bootcamp Partnership Call",
+      "description": "Discuss potential partnership for the new sales bootcamp.",
+      "start": { "dateTime": "2025-08-01T11:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-08-01T12:00:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "contact@aibootcamp.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Virtual Meeting",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_5",
+      "summary": "Quarterly Review with BuildCorp",
+      "description": "Review progress on current projects and discuss future opportunities.",
+      "start": { "dateTime": "2025-09-15T10:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-09-15T11:30:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "mark.allen@buildcorp.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "BuildCorp Office",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_6",
+      "summary": "Demo Call: New Roofing Material",
+      "description": "Showcase the new sustainable roofing material to potential clients.",
+      "start": { "dateTime": "2025-08-12T13:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-08-12T13:45:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "client1@example.com", "responseStatus": "tentative" },
+        { "email": "client2@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Webinar",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_7",
+      "summary": "Lunch with John Keller",
+      "description": "Celebrate the successful completion of the Springfield Mall roofing project.",
+      "start": { "dateTime": "2025-09-30T12:30:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-09-30T14:00:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "john.keller@roofingpros.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "The Capital Grille",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_8",
+      "summary": "Sales Team Weekly Sync",
+      "description": "Weekly sync to discuss pipeline, leads, and challenges.",
+      "start": { "dateTime": "2025-07-29T09:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-07-29T10:00:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "sales.team@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Office Conference Room",
+      "organizer": { "email": "sales.manager@example.com" }
+    },
+    {
+      "id": "cal_event_9",
+      "summary": "Postman Project Check-in",
+      "description": "Check-in on the progress of the new headquarters roofing project.",
+      "start": { "dateTime": "2025-08-20T11:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-08-20T11:30:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "pm-team@postman.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Virtual Meeting",
+      "organizer": { "email": "sales.rep@example.com" }
+    },
+    {
+      "id": "cal_event_10",
+      "summary": "Finalizing AI Bootcamp Partnership",
+      "description": "Final call to sign the partnership agreement for the new bootcamp.",
+      "start": { "dateTime": "2025-08-05T15:00:00", "timeZone": "America/Los_Angeles" },
+      "end": { "dateTime": "2025-08-05T15:30:00", "timeZone": "America/Los_Angeles" },
+      "attendees": [
+        { "email": "contact@aibootcamp.com", "responseStatus": "accepted" },
+        { "email": "sales.rep@example.com", "responseStatus": "accepted" }
+      ],
+      "location": "Virtual Meeting",
+      "organizer": { "email": "sales.rep@example.com" }
+    }
+  ],
+  "xero": [
+    {
+      "invoice_id": "xero_inv_1",
+      "contact": { "name": "Roofing Pros", "email": "accounts@roofingpros.com" },
+      "date": "2025-07-15",
+      "due_date": "2025-07-30",
+      "amount_due": 12000.00,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [{ "description": "Phase 1 Deposit for Springfield Mall roofing project", "quantity": 1, "unit_amount": 12000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_2",
+      "contact": { "name": "BuildCorp", "email": "billing@buildcorp.com" },
+      "date": "2025-06-12",
+      "due_date": "2025-06-26",
+      "amount_due": 0.00,
+      "amount_paid": 25000.00,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [{ "description": "Initial consultation for warehouse roofing project", "quantity": 1, "unit_amount": 25000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_3",
+      "contact": { "name": "AI Bootcamp", "email": "billing@aibootcamp.com" },
+      "date": "2025-08-06",
+      "due_date": "2025-08-21",
+      "amount_due": 7500.00,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [{ "description": "Partnership fee for new sales bootcamp", "quantity": 1, "unit_amount": 7500.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_4",
+      "contact": { "name": "Roofing Pros", "email": "accounts@roofingpros.com" },
+      "date": "2025-09-01",
+      "due_date": "2025-09-16",
+      "amount_due": 35000.00,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [{ "description": "Final Payment for Springfield Mall roofing project", "quantity": 1, "unit_amount": 35000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_5",
+      "contact": { "name": "BuildCorp", "email": "billing@buildcorp.com" },
+      "date": "2025-07-30",
+      "due_date": "2025-08-14",
+      "amount_due": 15000.00,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [{ "description": "Phase 1 for warehouse roofing project", "quantity": 1, "unit_amount": 15000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_6",
+      "contact": { "name": "Postman", "email": "accounts@postman.com" },
+      "date": "2025-07-05",
+      "due_date": "2025-07-20",
+      "amount_due": 0.00,
+      "amount_paid": 45000.00,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [{ "description": "Deposit for new headquarters roofing project", "quantity": 1, "unit_amount": 45000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_7",
+      "contact": { "name": "Roofing Pros", "email": "accounts@roofingpros.com" },
+      "date": "2025-05-10",
+      "due_date": "2025-05-25",
+      "amount_due": 0.00,
+      "amount_paid": 5000.00,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [{ "description": "Consultation services", "quantity": 1, "unit_amount": 5000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_8",
+      "contact": { "name": "BuildCorp", "email": "billing@buildcorp.com" },
+      "date": "2025-08-15",
+      "due_date": "2025-08-30",
+      "amount_due": 30000.00,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [{ "description": "Phase 2 for warehouse roofing project", "quantity": 1, "unit_amount": 30000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_9",
+      "contact": { "name": "AI Bootcamp", "email": "billing@aibootcamp.com" },
+      "date": "2025-07-22",
+      "due_date": "2025-08-06",
+      "amount_due": 0.00,
+      "amount_paid": 10000.00,
+      "status": "PAID",
+      "currency": "USD",
+      "line_items": [{ "description": "Invoice for corporate training quote", "quantity": 1, "unit_amount": 10000.00 }]
+    },
+    {
+      "invoice_id": "xero_inv_10",
+      "contact": { "name": "Postman", "email": "accounts@postman.com" },
+      "date": "2025-08-25",
+      "due_date": "2025-09-09",
+      "amount_due": 125000.00,
+      "status": "AUTHORISED",
+      "currency": "USD",
+      "line_items": [{ "description": "Final payment for new headquarters roofing project", "quantity": 1, "unit_amount": 125000.00 }]
+    }
+  ],
+  "quickbooks": [
+    {
+      "Id": "qb_inv_1",
+      "TxnDate": "2025-07-12",
+      "DueDate": "2025-07-27",
+      "CustomerRef": { "name": "BuildCorp", "value": "buildcorp_customer" },
+      "TotalAmt": 18500.00,
+      "Balance": 18500.00,
+      "Status": "Unpaid",
+      "Line": [{ "Description": "Invoice for new roofing materials", "Amount": 18500.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_2",
+      "TxnDate": "2025-06-10",
+      "DueDate": "2025-06-25",
+      "CustomerRef": { "name": "Postman Marketing Team", "value": "postman_customer" },
+      "TotalAmt": 5000.00,
+      "Balance": 0.00,
+      "Status": "Paid",
+      "Line": [{ "Description": "Consulting services", "Amount": 5000.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_3",
+      "TxnDate": "2025-07-25",
+      "DueDate": "2025-08-09",
+      "CustomerRef": { "name": "Roofing Pros", "value": "roofingpros_customer" },
+      "TotalAmt": 2500.00,
+      "Balance": 2500.00,
+      "Status": "Unpaid",
+      "Line": [{ "Description": "Service charge for project consultation", "Amount": 2500.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_4",
+      "TxnDate": "2025-07-01",
+      "DueDate": "2025-07-16",
+      "CustomerRef": { "name": "AI Bootcamp", "value": "aibootcamp_customer" },
+      "TotalAmt": 12000.00,
+      "Balance": 0.00,
+      "Status": "Paid",
+      "Line": [{ "Description": "Corporate training package", "Amount": 12000.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_5",
+      "TxnDate": "2025-07-18",
+      "DueDate": "2025-08-02",
+      "CustomerRef": { "name": "BuildCorp", "value": "buildcorp_customer" },
+      "TotalAmt": 3500.00,
+      "Balance": 3500.00,
+      "Status": "Overdue",
+      "Line": [{ "Description": "Additional labor costs", "Amount": 3500.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_6",
+      "TxnDate": "2025-08-01",
+      "DueDate": "2025-08-16",
+      "CustomerRef": { "name": "Postman", "value": "postman_customer" },
+      "TotalAmt": 22000.00,
+      "Balance": 22000.00,
+      "Status": "Unpaid",
+      "Line": [{ "Description": "Phase 2 payment for roofing project", "Amount": 22000.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_7",
+      "TxnDate": "2025-06-20",
+      "DueDate": "2025-07-05",
+      "CustomerRef": { "name": "Roofing Pros", "value": "roofingpros_customer" },
+      "TotalAmt": 7500.00,
+      "Balance": 0.00,
+      "Status": "Paid",
+      "Line": [{ "Description": "Materials deposit", "Amount": 7500.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_8",
+      "TxnDate": "2025-05-15",
+      "DueDate": "2025-05-30",
+      "CustomerRef": { "name": "BuildCorp", "value": "buildcorp_customer" },
+      "TotalAmt": 9500.00,
+      "Balance": 0.00,
+      "Status": "Paid",
+      "Line": [{ "Description": "Architectural design consultation", "Amount": 9500.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_9",
+      "TxnDate": "2025-08-10",
+      "DueDate": "2025-08-25",
+      "CustomerRef": { "name": "AI Bootcamp", "value": "aibootcamp_customer" },
+      "TotalAmt": 3000.00,
+      "Balance": 3000.00,
+      "Status": "Unpaid",
+      "Line": [{ "Description": "Additional training materials", "Amount": 3000.00, "DetailType": "SalesItemLineDetail" }]
+    },
+    {
+      "Id": "qb_inv_10",
+      "TxnDate": "2025-07-28",
+      "DueDate": "2025-08-12",
+      "CustomerRef": { "name": "Postman", "value": "postman_customer" },
+      "TotalAmt": 15000.00,
+      "Balance": 15000.00,
+      "Status": "Overdue",
+      "Line": [{ "Description": "Change order for roofing materials", "Amount": 15000.00, "DetailType": "SalesItemLineDetail" }]
+    }
+  ]
+} 

@@ -1,0 +1,16 @@
+{
+  "name": "ChatBot UI",
+  "short_name": "ChatBot UI",
+  "description": "A beautiful chatbot interface ready for custom backend integration.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/brain.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
