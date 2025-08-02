@@ -185,7 +185,14 @@ export default function SimpleSummaryPage() {
       }
     } catch (err) {
       console.error("Error fetching summary:", err);
-      setError(err instanceof Error ? err.message : "An error occurred");
+      
+      // Check for specific Anthropic API credit limit error
+      const errorMessage = err instanceof Error ? err.message : "An error occurred";
+      if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
+        setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else {
+        setError(errorMessage);
+      }
     } finally {
       setIsLoading(false);
     }

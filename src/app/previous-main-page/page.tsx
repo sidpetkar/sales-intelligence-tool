@@ -617,7 +617,14 @@ export default function ChatPage() {
       }
     } catch (err: any) {
       console.error("[DEBUG] Error in handleSubmit:", err);
-      setError(err.message || "An error occurred while fetching the response.");
+      
+      // Check for specific Anthropic API credit limit error
+      const errorMessage = err.message || "An error occurred while fetching the response.";
+      if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
+        setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else {
+        setError(errorMessage);
+      }
       setMessages((prev) =>
         prev.map((msg) =>
           msg.id === loadingMessage.id
@@ -775,7 +782,14 @@ export default function ChatPage() {
       }
     } catch (err: any) {
       console.error("[DEBUG] Error in handleHomePageSubmit:", err);
-      setError(err.message || "An error occurred while fetching the response.");
+      
+      // Check for specific Anthropic API credit limit error
+      const errorMessage = err.message || "An error occurred while fetching the response.";
+      if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
+        setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else {
+        setError(errorMessage);
+      }
       setMessages((prev) =>
         prev.map((msg) =>
           msg.id === loadingMessage.id
