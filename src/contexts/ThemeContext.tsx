@@ -12,30 +12,30 @@ interface ThemeContextProps {
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>('light'); // Default to light
+  const [theme, setTheme] = useState<Theme>('light'); // Always start with light
+  const [isClient, setIsClient] = useState(false);
 
-  // Initialize theme from localStorage or system preference
+  // Set client flag after mount to prevent hydration issues
   useEffect(() => {
-    // Get stored theme or check system preference
+    setIsClient(true);
+  }, []);
+
+  // Initialize theme from localStorage only after client-side mount
+  useEffect(() => {
+    if (!isClient) return;
+    
+    // Get stored theme, but default to light if nothing stored
     const storedTheme = localStorage.getItem('theme') as Theme | null;
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    console.log('[ThemeContext] Initializing theme. Stored:', storedTheme, 'Prefers Dark:', prefersDark);
+    console.log('[ThemeContext] Initializing theme. Stored:', storedTheme);
     
-    // Determine which theme to use
-    let initialTheme: Theme;
+    // Only use stored theme if it exists, otherwise stay with light default
     if (storedTheme) {
-      initialTheme = storedTheme;
-    } else if (prefersDark) {
-      initialTheme = 'dark';
-    } else {
-      initialTheme = 'light';
+      setTheme(storedTheme);
     }
     
-    // Set theme state
-    setTheme(initialTheme);
-    
-    // Apply theme class immediately on mount
+    // Apply initial theme (either stored or default light)
+    const initialTheme = storedTheme || 'light';
     if (initialTheme === 'dark') {
       document.documentElement.classList.add('theme-dark');
       document.documentElement.classList.add('dark');
@@ -47,7 +47,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
       document.documentElement.setAttribute('data-theme', 'light');
       document.body.setAttribute('data-theme', 'light');
     }
-  }, []);
+  }, [isClient]);
 
   // Apply theme changes when theme state changes
   useEffect(() => {
