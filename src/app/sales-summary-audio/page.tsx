@@ -168,7 +168,19 @@ export default function SimpleSummaryPage() {
       );
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        // Try to read the error response body for more details
+        let errorMessage = `HTTP error! status: ${response.status}`;
+        try {
+          const errorData = await response.json();
+          if (errorData.message) {
+            errorMessage = errorData.message;
+          } else if (errorData.error) {
+            errorMessage = errorData.error;
+          }
+        } catch {
+          // If we can't parse the error response, use the default message
+        }
+        throw new Error(errorMessage);
       }
 
       const data: SummaryResponse = await response.json();
@@ -186,12 +198,15 @@ export default function SimpleSummaryPage() {
     } catch (err) {
       console.error("Error fetching summary:", err);
       
-      // Check for specific Anthropic API credit limit error
+      // Check for specific errors and provide user-friendly messages
       const errorMessage = err instanceof Error ? err.message : "An error occurred";
+      
       if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
         setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else if (errorMessage.includes("Search failed") || errorMessage.includes("HTTP error")) {
+        setError("We're experiencing technical difficulties with our AI service. Please try again in a few moments.");
       } else {
-        setError(errorMessage);
+        setError("Something went wrong while processing your request. Please try again or contact support if the issue persists.");
       }
     } finally {
       setIsLoading(false);
@@ -357,22 +372,32 @@ export default function SimpleSummaryPage() {
               </div>
             </form>
 
-            {/* Error Display */}
+            {/* Error Display as Response */}
             {error && (
-              <div
-                className={`mt-6 p-4 ${
+              <div className="mt-8 space-y-6">
+                <div className={`${
                   theme === "light"
-                    ? "bg-red-50 border-red-200"
-                    : "bg-red-900/20 border-red-800"
-                } border rounded-lg`}
-              >
-                <p
-                  className={`text-sm ${
-                    theme === "light" ? "text-red-700" : "text-red-300"
-                  }`}
-                >
-                  Error: {error}
-                </p>
+                    ? "bg-blue-50 border-blue-200"
+                    : "bg-blue-900/20 border-blue-800"
+                } border rounded-lg p-6`}>
+                  <div className="flex items-center gap-2 mb-4">
+                    <svg className={`w-5 h-5 ${
+                      theme === "light" ? "text-blue-600" : "text-blue-400"
+                    }`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h3 className={`text-lg font-semibold ${
+                      theme === "light" ? "text-blue-800" : "text-blue-200"
+                    }`}>
+                      System Message
+                    </h3>
+                  </div>
+                  <p className={`${
+                    theme === "light" ? "text-blue-700" : "text-blue-300"
+                  } leading-relaxed`}>
+                    {error}
+                  </p>
+                </div>
               </div>
             )}
 

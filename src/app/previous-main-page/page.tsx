@@ -123,11 +123,22 @@ async function searchRealData(query: string): Promise<SearchData[]> {
     console.log(`[DEBUG] Response headers:`, response.headers);
 
     if (!response.ok) {
-      const errorBody = await response.text();
-      console.error("Backend error response:", errorBody);
-      throw new Error(
-        `Network response was not ok: ${response.status} ${response.statusText}`
-      );
+      let errorMessage = `Network response was not ok: ${response.status} ${response.statusText}`;
+      try {
+        const errorBody = await response.text();
+        console.error("Backend error response:", errorBody);
+        
+        // Try to parse as JSON to get structured error
+        const errorData = JSON.parse(errorBody);
+        if (errorData.message) {
+          errorMessage = errorData.message;
+        } else if (errorData.error) {
+          errorMessage = errorData.error;
+        }
+      } catch {
+        // If we can't parse the error response, use the default message
+      }
+      throw new Error(errorMessage);
     }
 
     const responseText = await response.text();
@@ -618,12 +629,15 @@ export default function ChatPage() {
     } catch (err: any) {
       console.error("[DEBUG] Error in handleSubmit:", err);
       
-      // Check for specific Anthropic API credit limit error
+      // Check for specific errors and provide user-friendly messages
       const errorMessage = err.message || "An error occurred while fetching the response.";
+      
       if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
         setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else if (errorMessage.includes("Search failed") || errorMessage.includes("HTTP error") || errorMessage.includes("Network response was not ok")) {
+        setError("We're experiencing technical difficulties with our AI service. Please try again in a few moments.");
       } else {
-        setError(errorMessage);
+        setError("Something went wrong while processing your request. Please try again or contact support if the issue persists.");
       }
       setMessages((prev) =>
         prev.map((msg) =>
@@ -783,12 +797,15 @@ export default function ChatPage() {
     } catch (err: any) {
       console.error("[DEBUG] Error in handleHomePageSubmit:", err);
       
-      // Check for specific Anthropic API credit limit error
+      // Check for specific errors and provide user-friendly messages
       const errorMessage = err.message || "An error occurred while fetching the response.";
+      
       if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
         setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else if (errorMessage.includes("Search failed") || errorMessage.includes("HTTP error") || errorMessage.includes("Network response was not ok")) {
+        setError("We're experiencing technical difficulties with our AI service. Please try again in a few moments.");
       } else {
-        setError(errorMessage);
+        setError("Something went wrong while processing your request. Please try again or contact support if the issue persists.");
       }
       setMessages((prev) =>
         prev.map((msg) =>
@@ -1116,8 +1133,32 @@ export default function ChatPage() {
         </main>
 
         {error && (
-          <div className="p-4 text-center text-red-600 dark:text-red-400 bg-red-100 dark:bg-red-900 border-t border-red-200 dark:border-red-700">
-            Error: {error}
+          <div className="p-4 bg-gray-50 dark:bg-[#161616] border-t border-gray-200 dark:border-transparent">
+            <div className="max-w-4xl mx-auto">
+              <div className={`${
+                theme === "light"
+                  ? "bg-blue-50 border-blue-200"
+                  : "bg-blue-900/20 border-blue-800"
+              } border rounded-lg p-6`}>
+                <div className="flex items-center gap-2 mb-4">
+                  <svg className={`w-5 h-5 ${
+                    theme === "light" ? "text-blue-600" : "text-blue-400"
+                  }`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <h3 className={`text-lg font-semibold ${
+                    theme === "light" ? "text-blue-800" : "text-blue-200"
+                  }`}>
+                    System Message
+                  </h3>
+                </div>
+                <p className={`${
+                  theme === "light" ? "text-blue-700" : "text-blue-300"
+                } leading-relaxed`}>
+                  {error}
+                </p>
+              </div>
+            </div>
           </div>
         )}
 

@@ -333,7 +333,21 @@ export default function SimpleSummaryPage() {
       );
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        // Try to read the error response body for more details
+        let errorMessage = `HTTP error! status: ${response.status}`;
+        try {
+          const errorData = await response.json();
+          console.log("[DEBUG] Error response data:", errorData);
+          
+          if (errorData.message) {
+            errorMessage = errorData.message;
+          } else if (errorData.error) {
+            errorMessage = errorData.error;
+          }
+        } catch {
+          // If we can't parse the error response, use the default message
+        }
+        throw new Error(errorMessage);
       }
 
       const data: SummaryResponse = await response.json();
@@ -356,12 +370,15 @@ export default function SimpleSummaryPage() {
     } catch (err) {
       console.error("Error fetching summary:", err);
       
-      // Check for specific Anthropic API credit limit error
+      // Check for specific errors and provide user-friendly messages
       const errorMessage = err instanceof Error ? err.message : "An error occurred";
+      
       if (errorMessage.includes("credit balance is too low") || errorMessage.includes("Anthropic API")) {
         setError("Your credit balance is too low to access the AI model. Please add more credits to your account to continue using the service.");
+      } else if (errorMessage.includes("Search failed") || errorMessage.includes("HTTP error")) {
+        setError("We're experiencing technical difficulties with our AI service. Please try again in a few moments.");
       } else {
-        setError(errorMessage);
+        setError("Something went wrong while processing your request. Please try again or contact support if the issue persists.");
       }
     } finally {
       setIsLoading(false);
@@ -527,22 +544,64 @@ export default function SimpleSummaryPage() {
               </div>
             </form>
 
-            {/* Error Display */}
+            {/* Error Display as Response */}
             {error && (
-              <div
-                className={`mt-6 p-4 ${
-                  theme === "light"
-                    ? "bg-red-50 border-red-200"
-                    : "bg-red-900/20 border-red-800"
-                } border rounded-lg`}
-              >
-                <p
-                  className={`text-sm ${
-                    theme === "light" ? "text-red-700" : "text-red-300"
-                  }`}
+              <div className="mt-8 space-y-6 w-full max-w-5xl">
+                <div
+                  className={`${
+                    theme === "light"
+                      ? "bg-white border-gray-200 shadow-sm"
+                      : "bg-[#1E1E1E] border-[#2F2F2E]"
+                  } border rounded-xl p-4 sm:p-6 lg:p-8`}
                 >
-                  Error: {error}
-                </p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div
+                      className={`w-10 h-10 rounded-full flex items-center justify-center ${
+                        theme === "light"
+                          ? "bg-blue-100 text-blue-600"
+                          : "bg-blue-900/30 text-blue-400"
+                      }`}
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3
+                        className={`text-lg font-semibold ${
+                          theme === "light" ? "text-gray-900" : "text-gray-100"
+                        }`}
+                      >
+                        System Message
+                      </h3>
+                      <p
+                        className={`text-sm ${
+                          theme === "light" ? "text-gray-600" : "text-gray-400"
+                        }`}
+                      >
+                        Service status update
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`space-y-6 leading-relaxed ${
+                      theme === "light" ? "text-gray-700" : "text-gray-300"
+                    }`}
+                  >
+                    <p>{error}</p>
+                  </div>
+                </div>
               </div>
             )}
 
