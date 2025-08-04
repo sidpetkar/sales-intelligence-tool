@@ -576,9 +576,7 @@ export default function SimpleSummaryPage() {
                   </div>
 
                   <div
-                    className={`space-y-6 leading-relaxed ${
-                      theme === "light" ? "text-gray-700" : "text-gray-300"
-                    }`}
+                    className="space-y-6 leading-relaxed text-gray-900"
                   >
                     <p>{error}</p>
                   </div>
@@ -646,28 +644,22 @@ export default function SimpleSummaryPage() {
                     }`}
                   >
                     <div
-                      className={`space-y-6 leading-relaxed ${
-                        theme === "light" ? "text-gray-700" : "text-gray-300"
-                      }`}
+                      className="space-y-6 leading-relaxed text-gray-900"
                     >
                       {formattedSummary ? (
                         <div
-                          className={`prose prose-sm max-w-none ${
-                            theme === "light"
-                              ? "prose-gray"
-                              : "prose-invert prose-gray-300"
-                          }`}
+                          className="prose prose-sm max-w-none prose-gray"
                         >
                           <ReactMarkdown
                             remarkPlugins={[remarkGfm]}
                             components={{
                               h3: ({ children }) => (
-                                <h3 className="text-xl font-bold mb-6 mt-8 text-gray-900 dark:text-gray-100 border-b border-gray-300 dark:border-gray-600 pb-2">
+                                <h3 className="text-xl font-bold mb-6 mt-8 text-gray-900 border-b border-gray-300 pb-2">
                                   {children}
                                 </h3>
                               ),
                               h4: ({ children }) => (
-                                <h4 className="text-lg font-semibold mb-4 mt-6 text-gray-800 dark:text-gray-200">
+                                <h4 className="text-lg font-semibold mb-4 mt-6 text-gray-900">
                                   {children}
                                 </h4>
                               ),
@@ -677,7 +669,7 @@ export default function SimpleSummaryPage() {
                                 </ul>
                               ),
                               li: ({ children }) => (
-                                <li className="mb-4 text-gray-700 dark:text-gray-300">
+                                <li className="mb-4 text-gray-900">
                                   {children}
                                 </li>
                               ),
@@ -687,12 +679,12 @@ export default function SimpleSummaryPage() {
                                 </ol>
                               ),
                               p: ({ children }) => (
-                                <p className="mb-2 text-gray-700 dark:text-gray-300 leading-relaxed">
+                                <p className="mb-2 text-gray-900 leading-relaxed">
                                   {children}
                                 </p>
                               ),
                               strong: ({ children }) => (
-                                <strong className="font-semibold text-gray-900 dark:text-gray-100">
+                                <strong className="font-semibold text-gray-900">
                                   {children}
                                 </strong>
                               ),
@@ -736,7 +728,7 @@ export default function SimpleSummaryPage() {
                                         : "bg-gray-800/50 border-l-4 border-blue-600"
                                     }`}
                                   >
-                                    <p className="text-base leading-7">
+                                    <p className="text-base leading-7 text-gray-900">
                                       {trimmedParagraph}
                                     </p>
                                   </div>
@@ -750,14 +742,10 @@ export default function SimpleSummaryPage() {
 
                   {/* Tools Used */}
                   {summary.toolsUsed && summary.toolsUsed.length > 0 && (
-                    <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                    <div className="mt-4 pt-4 border-t border-gray-200">
                       <div className="flex items-center gap-2">
                         <span
-                          className={`text-sm font-medium ${
-                            theme === "light"
-                              ? "text-gray-700"
-                              : "text-gray-300"
-                          }`}
+                          className="text-sm font-medium text-gray-900"
                         >
                           Data Sources:
                         </span>
