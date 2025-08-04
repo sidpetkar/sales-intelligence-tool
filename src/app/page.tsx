@@ -427,8 +427,7 @@ export default function SimpleSummaryPage() {
                 theme === "light" ? "text-gray-900" : "text-gray-200"
               }`}
             >
-              Your intelligent sales assistant ready to help you close more
-              deals
+              Your smart sales assistant.
             </p>
           </div>
 
@@ -452,7 +451,7 @@ export default function SimpleSummaryPage() {
                       setQuery(e.target.value);
                       adjustTextareaHeight();
                     }}
-                    placeholder="Ask me anything about your sales pipeline, leads, or need help with emails..."
+                    placeholder="Ask me anything..."
                     disabled={isLoading}
                     rows={1}
                     className={`flex-grow bg-transparent focus:outline-none ${

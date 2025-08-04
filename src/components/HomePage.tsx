@@ -85,12 +85,12 @@ export default function HomePage({ onPromptClick, onSubmit, inputValue, setInput
         
         {/* Title */}
         <h1 className="text-3xl font-normal text-gray-900 dark:text-[#F9FAFB] mb-4">
-          Welcome to Sales Intelligent Tool
+          Welcome to Sales Intelligence
         </h1>
         
         {/* Subtitle */}
         <p className="text-lg text-gray-600 dark:text-[#A6A6A6] max-w-md mx-auto">
-          Your intelligent sales assistant ready to help you close more deals
+          Your smart sales assistant.
         </p>
       </div>
 
@@ -105,7 +105,7 @@ export default function HomePage({ onPromptClick, onSubmit, inputValue, setInput
                 ref={textareaRef}
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
-                placeholder="Ask me anything about your sales pipeline, leads, or need help with emails..."
+                placeholder="Ask me anything..."
                 disabled={isLoading}
                 className="flex-grow bg-transparent focus:outline-none text-gray-900 dark:text-[#F9FAFB] text-base placeholder-gray-500 dark:placeholder-[#A6A6A6] resize-none overflow-y-auto pr-2 min-h-[46px]"
                 onKeyDown={(e) => {

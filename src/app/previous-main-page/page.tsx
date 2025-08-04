@@ -1168,7 +1168,7 @@ export default function ChatPage() {
                     ref={textareaRef}
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
-                    placeholder="Ask me anything about your sales pipeline, leads, or need help with emails..."
+                    placeholder="Ask me anything..."
                     disabled={isLoading}
                     className="flex-grow bg-transparent focus:outline-none text-gray-900 dark:text-[#F9FAFB] text-base placeholder-gray-500 dark:placeholder-[#A6A6A6] resize-none overflow-y-auto pr-2"
                     onKeyDown={(e) => {
