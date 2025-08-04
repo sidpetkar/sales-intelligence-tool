@@ -17,8 +17,6 @@ import {
   LogOut,
   PlusCircle,
   MessageCirclePlus,
-  Sun,
-  Moon,
   Youtube,
 } from "lucide-react";
 import remarkGfm from "remark-gfm";
@@ -481,7 +479,7 @@ async function convertToSpokenStyle(summary: string): Promise<string> {
 }
 
 export default function ChatPage() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
   const { useMockData: isMockEnabled, setUseMockData } = useMockData();
 
   const [inputValue, setInputValue] = useState<string>("");
@@ -919,18 +917,7 @@ export default function ChatPage() {
               />
               Use Mock Data
             </label>
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-full icon-button"
-              title={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
-              aria-label="Toggle theme"
-            >
-              {theme === "light" ? (
-                <Moon className="w-5 h-5 sm:w-6 sm:w-6 text-gray-700 dark:text-[#C8C8C8]" />
-              ) : (
-                <Sun className="w-5 h-5 sm:w-6 sm:w-6 text-gray-700 dark:text-[#C8C8C8]" />
-              )}
-            </button>
+            {/* Theme Toggle - Hidden for light mode only */}
           </div>
         </div>
       </header>

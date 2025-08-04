@@ -2,7 +2,7 @@
 
 import { useState, FormEvent, useRef } from "react";
 import { useTheme } from "@/contexts/ThemeContext";
-import { ArrowUp, Mic, Volume2, VolumeX, Sun, Moon } from "lucide-react";
+import { ArrowUp, Mic, Volume2, VolumeX } from "lucide-react";
 
 interface SummaryResponse {
   success: boolean;
@@ -26,7 +26,7 @@ export default function SimpleSummaryPage() {
   const [spokenSummary, setSpokenSummary] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
   const audioRef = useRef<HTMLAudioElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
@@ -229,23 +229,7 @@ export default function SimpleSummaryPage() {
       {/* Main Content */}
       <main className="flex-1 max-w-3xl mx-auto w-full flex flex-col h-full relative">
         <div className="flex-grow flex flex-col items-center justify-center px-4 py-8">
-          {/* Theme Toggle - Top Right */}
-          <div className="absolute top-4 right-4">
-            <button
-              onClick={toggleTheme}
-              className={`p-2 rounded-full transition-colors ${
-                theme === "light" ? "hover:bg-gray-200" : "hover:bg-gray-700"
-              }`}
-              title={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
-              aria-label="Toggle theme"
-            >
-              {theme === "light" ? (
-                <Moon className="w-5 h-5 sm:w-6 sm:w-6 text-gray-700" />
-              ) : (
-                <Sun className="w-5 h-5 sm:w-6 sm:w-6 text-gray-300" />
-              )}
-            </button>
-          </div>
+          {/* Theme Toggle - Hidden for light mode only */}
 
           {/* Logo and Title Section */}
           <div className="text-center mb-16">

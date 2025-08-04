@@ -48,6 +48,12 @@ export const metadata: Metadata = {
     },
     description: APP_DESCRIPTION,
   },
+  // Cache busting and iOS fixes
+  other: {
+    'Cache-Control': 'no-cache, no-store, must-revalidate',
+    'Pragma': 'no-cache',
+    'Expires': '0',
+  },
 };
 
 export const viewport: Viewport = {
@@ -62,7 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body className={`${dmSans.className} bg-gray-50 dark:bg-[#161616] text-gray-800 dark:text-[#F9FAFB]`} data-theme="light">
+      <body className={`${dmSans.className} bg-gray-50 dark:bg-[#161616] text-gray-800 dark:text-[#F9FAFB]`} data-theme="light" style={{backgroundColor: '#f9fafb', color: '#1f2937'}}>
         <Providers>{children}</Providers>
       </body>
     </html>
